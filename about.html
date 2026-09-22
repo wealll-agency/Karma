@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karma International</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css?v=8">
+    <style>
+        /* Force Footer Dividers via inline style to bypass browser cache */
+        .footer-col {
+            position: relative;
+            border-right: none !important;
+        }
+
+        .footer-col.has-divider::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 1px;
+            height: 100px;
+            background-color: rgba(201, 164, 92, 0.2) !important;
+        }
+    </style>
+</head>
+
+<body class="bg-black">
+
+    <!-- Header / Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar site-header" id="mainNav">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" alt="Karma International" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mx-auto text-white align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a class="btn btn-outline-gold px-4 py-2 me-3" href="#">Become a Sponsor</a>
+                    <a class="btn btn-gold-gradient px-4 py-2 text-dark fw-bold" href="#">Become an Educator</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. About Hero Section -->
+    <section class="about-page-hero" style="background-image: url('assets/images/about-hero-bg.jpg');">
+        <div class="container-fluid px-5 w-100 position-relative z-index-2">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="cta-subtitle mb-3 tracking-wide"
+                        style="letter-spacing: 4px; font-size: 0.7rem; color: var(--gold);">ABOUT US</div>
+                    <h1 class="about-hero-title font-playfair text-white mb-4">
+                        More Than<br>Beauty.<br>
+                        <span class="text-gold">A Global Movement.</span>
+                    </h1>
+                    <div class="about-divider mb-4"></div>
+                    <p class="about-hero-desc mb-5">
+                        Karma International is a global initiative dedicated to education, collaboration and meaningful
+                        opportunities in the beauty industry. We bring together individuals, organizations and
+                        communities to inspire, empower and create a brighter tomorrow.
+                    </p>
+                    <a href="#our-story" class="btn btn-gold-gradient text-dark fw-bold px-4 py-3 mb-5"
+                        style="border-radius: 4px; font-size: 0.95rem;">
+                        Our Story <i class="fas fa-arrow-right ms-2 text-dark"></i>
+                    </a>
+
+                    <div class="d-flex align-items-center mt-3">
+                        <div style="width: 40px; border-top: 1px solid var(--gold); margin-right: 15px;"></div>
+                        <div class="about-tags tracking-wide">
+                            <span class="me-3">PEOPLE</span>
+                            <span class="me-3">EDUCATION</span>
+                            <span>OPPORTUNITY</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 offset-lg-3 text-center d-none d-lg-block">
+                    <!-- Stacked Text below the globe -->
+                    <div class="about-stacked-text d-inline-block mt-5 pt-5">
+                        <span class="d-block mb-3 tracking-wide text-white" style="letter-spacing: 5px;">A
+                            BRIGHTER</span>
+                        <span class="d-block mb-3 tracking-wide text-white" style="letter-spacing: 5px;">TOMORROW</span>
+                        <span class="d-block tracking-wide text-white" style="letter-spacing: 5px;">TOGETHER</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Our Purpose Section -->
+    <section class="purpose-section" id="our-story">
+        <div class="container-fluid p-0 h-100">
+            <div class="row g-0 h-100">
+                <!-- Left Side Content -->
+                <div class="col-lg-6 purpose-col-left">
+                    <div style="max-width: 550px;">
+                        <div class="cta-subtitle mb-3 tracking-wide fw-semibold"
+                            style="letter-spacing: 4px; font-size: 0.75rem; color: #b08d4b;">OUR PURPOSE</div>
+                        <h2 class="purpose-title mb-4">Uniting People<br>to Create Opportunities.</h2>
+                        <div class="about-divider mb-4" style="border-top: 2px solid #b08d4b;"></div>
+                        <p class="purpose-desc">
+                            We believe in the power of beauty to transform lives &mdash; not just on the outside, but
+                            from within. Karma International connects industry experts, educators, brands and aspiring
+                            talents on a global platform to share knowledge, build collaborations and create meaningful
+                            change.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Side Image -->
+                <div class="col-lg-6 position-relative" style="min-height: 600px;">
+                    <div class="position-absolute w-100 h-100 top-0 start-0"
+                        style="background-image: url('assets/images/about-purpose-interior.jpg'); background-size: cover; background-position: center left;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Our Core Values Section -->
+    <section class="values-section">
+        <div class="container-fluid px-5">
+            <div class="row">
+                <div class="col-12 values-title-wrapper">
+                    <div class="cta-subtitle tracking-wide"
+                        style="letter-spacing: 4px; font-size: 0.75rem; color: var(--gold); margin-bottom: 15px;">OUR
+                        CORE VALUES</div>
+                    <div style="width: 40px; border-top: 2px solid var(--gold); margin: 0 auto;"></div>
+                </div>
+            </div>
+            <div class="row text-center mt-3">
+                <div class="col-lg-3 col-md-6 values-col has-divider mb-4 mb-lg-0">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                            <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                        </svg>
+                    </div>
+                    <h3 class="value-title text-white">EDUCATION</h3>
+                    <p class="value-desc">Sharing knowledge<br>to uplift talent.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 values-col has-divider mb-4 mb-lg-0">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                    </div>
+                    <h3 class="value-title text-white">COLLABORATION</h3>
+                    <p class="value-desc">Bringing people<br>together for greater impact.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 values-col has-divider mb-4 mb-lg-0">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 3h12l4 6-10 13L2 9l4-6z" />
+                            <path d="M12 22L12 9" />
+                            <path d="M2 9L22 9" />
+                            <path d="M6 3L12 9" />
+                            <path d="M18 3L12 9" />
+                        </svg>
+                    </div>
+                    <h3 class="value-title text-white">OPPORTUNITY</h3>
+                    <p class="value-desc">Creating pathways<br>for growth and success.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 values-col mb-4 mb-lg-0">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="2" y1="12" x2="22" y2="12" />
+                            <path
+                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                        </svg>
+                    </div>
+                    <h3 class="value-title text-white">GLOBAL IMPACT</h3>
+                    <p class="value-desc">Building a more inclusive,<br>empowered and<br>brighter tomorrow.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Our Journey Section -->
+    <section class="journey-section"
+        style="background-image: url('assets/images/about_journey_stage_1789981701943.jpg');">
+        <div class="journey-overlay position-absolute w-100 h-100 top-0 start-0 z-index-1"></div>
+        <div class="container-fluid px-5 position-relative z-index-2 w-100">
+            <div class="row align-items-center">
+                <!-- Left Side Content aligned perfectly with header logo -->
+                <div class="col-lg-5">
+                    <div class="cta-subtitle mb-4 tracking-wide fw-semibold"
+                        style="letter-spacing: 6px; font-size: 0.7rem; color: #c9a45c;">OUR JOURNEY</div>
+                    <h2 class="journey-title mb-4">From a Vision<br>to a Global Platform.</h2>
+                    <p class="journey-desc mb-5">
+                        What began as a simple belief &mdash; that the beauty industry has the power to change lives
+                        &mdash; has grown into a global movement. Today, Karma International stands as a trusted
+                        platform connecting educators, professionals, brands and communities across continents.
+                    </p>
+                    <a href="events.html" class="btn btn-gold-gradient text-dark fw-bold px-4 py-3"
+                        style="border-radius: 4px; font-size: 0.95rem;">
+                        Explore Our Journey <i class="fas fa-arrow-right ms-2 text-dark"></i>
+                    </a>
+                </div>
+
+                <!-- Right side stacked text perfectly aligned -->
+                <div class="col-lg-2 offset-lg-5 d-none d-lg-block">
+                    <div class="journey-floating-text">
+                        <div class="journey-floating-line"></div>
+                        <span>SAME</span>
+                        <span>PASSION.</span>
+                        <span>GREATER</span>
+                        <span>IMPACT.</span>
+                        <div class="journey-floating-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Stats Section -->
+    <section class="stats-section">
+        <div class="container-fluid px-5">
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 stat-col-custom has-divider mb-4 mb-lg-0">
+                    <div class="stat-number counter" data-target="10">10K+</div>
+                    <div class="stat-label">BEAUTY<br>PROFESSIONALS</div>
+                </div>
+                <div class="col-lg-3 col-md-6 stat-col-custom has-divider mb-4 mb-lg-0">
+                    <div class="stat-number counter" data-target="25">25+</div>
+                    <div class="stat-label">COUNTRIES</div>
+                </div>
+                <div class="col-lg-3 col-md-6 stat-col-custom has-divider mb-4 mb-lg-0">
+                    <div class="stat-number counter" data-target="100">100+</div>
+                    <div class="stat-label">EDUCATORS</div>
+                </div>
+                <div class="col-lg-3 col-md-6 stat-col-custom mb-4 mb-lg-0">
+                    <div class="stat-number counter" data-target="50">50+</div>
+                    <div class="stat-label">GLOBAL EVENTS</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Our Global Presence Section -->
+    <section class="presence-section">
+        <div class="container-fluid px-5">
+            <div class="row align-items-center">
+                <!-- Left Side Content aligned perfectly with header logo -->
+                <div class="col-lg-5">
+                    <div class="cta-subtitle mb-4 tracking-wide fw-semibold" style="letter-spacing: 6px; font-size: 0.7rem; color: var(--gold);">OUR GLOBAL PRESENCE</div>
+                    <h2 class="presence-title mb-4">A Worldwide Community</h2>
+                    <p class="presence-desc mb-5">
+                        From New York to London, Dubai to Mumbai, Karma International brings together a diverse and passionate community of beauty professionals, educators and industry leaders. Our events and initiatives span across continents, creating a global network that learns, collaborates and grows together.
+                    </p>
+                    <a href="events.html" class="btn btn-gold-gradient text-dark fw-bold px-4 py-3" style="border-radius: 4px; font-size: 0.95rem;">
+                        See Our Global Impact <i class="fas fa-arrow-right ms-2 text-dark"></i>
+                    </a>
+                </div>
+                
+                <!-- Right side map -->
+                <div class="col-lg-7">
+                    <div class="presence-map-wrapper">
+                        <img src="assets/images/about_global_map_1789981716330.jpg" alt="Global Map" class="presence-map">
+                        <div class="presence-script-wrapper d-none d-lg-block">
+                            <div class="presence-script">Beauty<br>Has No<br>Borders</div>
+                            <div class="presence-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Founder Testimonial Section -->
+    <section class="testimonial-section">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <!-- Left side image -->
+                <div class="col-lg-6" style="background-image: url('assets/images/about_founder_makeup_1789981729719.jpg'); background-size: cover; background-position: center; min-height: 500px;"></div>
+                
+                <!-- Right side content -->
+                <div class="col-lg-6 testimonial-col-right">
+                    <div class="quote-icon">&ldquo;</div>
+                    <p class="testimonial-quote">
+                        Karma International is more than an organization, it's a movement. It's about people, purpose and the belief that together we can create a brighter tomorrow for the beauty industry.
+                    </p>
+                    <div class="testimonial-divider"></div>
+                    <div class="author-name">RICHA DAVE</div>
+                    <div class="author-title">FOUNDER, KARMA INTERNATIONAL</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section position-relative d-flex align-items-center"
+        style="background-image: url('assets/images/cta-banner-final.jpg'); background-position: left center;">
+        <div class="cta-overlay position-absolute w-100 h-100 top-0 start-0"></div>
+        <div class="container-fluid px-5 position-relative z-index-2 w-100">
+            <div class="row align-items-center">
+                <div class="col-lg-5 offset-lg-5 d-flex flex-column justify-content-center cta-text-col">
+                    <div class="cta-subtitle mb-2 tracking-wide" style="letter-spacing: 4px; font-size: 0.75rem;">BE A
+                        PART OF THE MOVEMENT</div>
+                    <h2 class="cta-title font-playfair text-white mb-0" style="font-size: 2.3rem; line-height: 1.2;">
+                        Let's Create a Brighter<br>Tomorrow Together.</h2>
+                </div>
+                <div class="col-lg-2 text-start text-lg-end mt-4 mt-lg-0 pe-lg-4">
+                    <a class="btn btn-gold-gradient text-dark fw-bold px-4 py-3"
+                        style="border-radius: 4px; font-size: 0.95rem;" href="#">Get In Touch <i
+                            class="fas fa-arrow-right ms-2 text-dark"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Footer -->
+    <footer class="site-footer pt-5 position-relative" style="background-color: #050505;">
+        <div class="container-fluid px-5 pb-5 border-bottom" style="border-color: rgba(201,164,92,0.2) !important;">
+            <div class="row m-0 align-items-center">
+
+                <!-- Col 1: Logo -->
+                <div class="col-lg-3 col-md-6 footer-col has-divider pe-4 mb-4 mb-lg-0">
+                    <a class="navbar-brand d-inline-block mb-3" href="index.html">
+                        <img src="assets/images/logo.png" alt="Karma International" height="60">
+                    </a>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div class="col-lg-2 col-md-6 footer-col has-divider px-lg-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading mb-4">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-2"><a href="#">Home</a></li>
+                        <li class="mb-2"><a href="#">About</a></li>
+                        <li class="mb-2"><a href="#">Events</a></li>
+                        <li class="mb-2"><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Get In Touch -->
+                <div class="col-lg-3 col-md-6 footer-col has-divider px-lg-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading mb-4">Get In Touch</h5>
+                    <ul class="list-unstyled footer-contact">
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="far fa-envelope text-gold me-3 fs-5"></i>
+                            <a href="mailto:info@karmainternational.com">info@karmainternational.com</a>
+                        </li>
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-phone-alt text-gold me-3 fs-5"></i>
+                            <a href="tel:+1234567890">+1 234 567 890</a>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <i class="fas fa-map-marker-alt text-gold me-3 fs-5"></i>
+                            <span class="text-light">New York, USA</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Follow Us -->
+                <div class="col-lg-2 col-md-6 footer-col px-lg-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading mb-4">Follow Us</h5>
+                    <div class="d-flex social-links">
+                        <a href="#" class="social-icon d-flex align-items-center justify-content-center me-2"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon d-flex align-items-center justify-content-center me-2"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon d-flex align-items-center justify-content-center me-2"><i
+                                class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon d-flex align-items-center justify-content-center"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <!-- Col 5: Globe Image -->
+                <div class="col-lg-2 position-relative footer-globe-col p-0 d-none d-lg-block"
+                    style="min-height: 250px;">
+                    <img src="assets/images/footer-globe-final.jpg" class="position-absolute" alt="Globe"
+                        style="width: 450px; max-width: none; right: -30px; bottom: 0px; opacity: 1; mix-blend-mode: screen;">
+                    <div class="position-absolute w-100" style="bottom: 15px; right: 20px; text-align: right;">
+                        <span class="text-gold tracking-wide d-inline-block"
+                            style="font-size: 0.8rem; letter-spacing: 5px; font-family: 'Inter', sans-serif; line-height: 1.4;">A
+                            GLOBAL FAMILY<br>FOR A BRIGHTER TOMORROW</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Bottom Footer -->
+        <div class="footer-bottom py-4">
+            <div class="container-fluid px-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                        <span class="footer-bottom-text">© 2026 Karma International. All Rights Reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <a href="#" class="footer-bottom-link me-4">Privacy Policy</a>
+                        <span class="text-secondary me-4">|</span>
+                        <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Owl Carousel JS (Assumed to be loaded in the actual site, using CDN for fallback) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Custom Scripts for this page -->
+    <script>
+        $(document).ready(function () {
+            // Stats Counter Animation
+            $('.counter').each(function () {
+                $(this).prop('Counter', 0).animate({
+                    Counter: $(this).data('target')
+                }, {
+                    duration: 2000,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+
+            // Re-initialize Owl Carousel to ensure it works
+            if ($('.featured-carousel').length) {
+                var owl = $('.featured-carousel').owlCarousel({
+                    loop: true,
+                    margin: 20,
+                    nav: false,
+                    dots: false,
+                    autoplay: true,
+                    autoplayTimeout: 3000,
+                    responsive: {
+                        0: { items: 2 },
+                        600: { items: 4 },
+                        1000: { items: 6 }
+                    }
+                });
+
+                // Custom Navigation
+                $('.featured-nav-next').click(function () {
+                    owl.trigger('next.owl.carousel');
+                });
+                $('.featured-nav-prev').click(function () {
+                    owl.trigger('prev.owl.carousel');
+                });
+            }
+        });
+    </script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
