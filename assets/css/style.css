@@ -2171,3 +2171,210 @@ body {
   position: relative;
   z-index: 2;
 }
+/* ==========================================================================
+   Sponsor Page Styles
+   ========================================================================== */
+
+/* 1. Sponsor Hero */
+.sponsor-hero-section {
+    position: relative;
+    height: 100vh;
+    min-height: 800px;
+    background-size: cover;
+    background-position: center top;
+    padding-top: 100px;
+}
+.sponsor-hero-overlay {
+    background: linear-gradient(to right, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.85) 45%, rgba(0,0,0,0.4) 100%);
+}
+.sponsor-hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+}
+.sponsor-hero-desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #e0e0e0;
+    line-height: 1.8;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+    max-width: 500px;
+    margin-bottom: 2rem;
+}
+.sponsor-hero-tags {
+    margin-top: 60px;
+    padding-bottom: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.65rem;
+    letter-spacing: 4px;
+    color: #c9a45c;
+    text-transform: uppercase;
+}
+
+/* 2. Sponsor Benefits */
+.sponsor-benefit-col {
+    position: relative;
+    padding: 10px 20px;
+}
+.sponsor-benefit-col.has-divider::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 60px;
+    background-color: rgba(201, 164, 92, 0.2);
+}
+.sponsor-benefit-icon {
+    font-size: 2rem;
+    color: #c9a45c;
+    margin-bottom: 15px;
+}
+.sponsor-benefit-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.sponsor-benefit-desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    color: #999;
+    line-height: 1.6;
+}
+
+/* 3. Sponsor Form Section */
+.sponsor-form-section {
+    background-size: cover;
+    background-position: center right;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+}
+.sponsor-form-overlay {
+    background: linear-gradient(to right, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.85) 40%, rgba(0,0,0,0.2) 100%);
+}
+.sponsor-form-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #fff;
+}
+.sponsor-check-list li {
+    font-family: 'Inter', sans-serif;
+    color: #ddd;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+}
+.sponsor-check-list li i {
+    color: #c9a45c;
+    margin-top: 4px;
+    margin-right: 15px;
+    font-size: 1.1rem;
+}
+.sponsor-form-card {
+    background: rgba(10, 10, 10, 0.6);
+    border: 1px solid rgba(201, 164, 92, 0.4);
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+}
+.sponsor-input {
+    background-color: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 4px !important;
+    color: #fff !important;
+    padding: 12px 15px !important;
+    font-size: 0.9rem !important;
+}
+.sponsor-input::placeholder {
+    color: #888 !important;
+}
+.sponsor-input:focus {
+    border-color: #c9a45c !important;
+    box-shadow: none !important;
+}
+.sponsor-select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23888888' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 15px center !important;
+    background-size: 16px !important;
+}
+.sponsor-select option {
+    background-color: #111;
+    color: #fff;
+}
+
+/* 4. Tailored Options Section */
+.sponsor-opportunities-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+}
+.sponsor-opp-overlay {
+    background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 40%, rgba(0,0,0,0.2) 100%);
+}
+.sponsor-opp-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #fff;
+}
+
+/* 5. Partners Section */
+.partner-logos-container {
+    padding: 30px 0;
+}
+.partner-logo { height: 35px; object-fit: contain; 
+    filter: brightness(0) invert(1) opacity(0.7);
+    transition: all 0.3s ease;
+    cursor: default;
+}
+.partner-logo:hover {
+    filter: brightness(0) invert(1) opacity(1);
+}
+.partner-more-btn {
+    width: 45px;
+    height: 45px;
+    border: 1px solid rgba(201, 164, 92, 0.5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c9a45c;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.partner-more-btn:hover {
+    background-color: rgba(201, 164, 92, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .sponsor-hero-title {
+        font-size: 3rem;
+    }
+    .sponsor-benefit-col.has-divider::after {
+        display: none;
+    }
+    .partner-logo { height: 25px; object-fit: contain;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
