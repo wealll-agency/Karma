@@ -3327,3 +3327,33 @@ body {
     aspect-ratio: 1/1 !important;
   }
 }
+
+/* Mobile Navbar Overlay Fix */
+@media screen and (max-width: 991px) {
+  .custom-navbar .navbar-collapse {
+    background-color: rgba(5, 5, 5, 0.98);
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 15px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.8);
+    border: 1px solid rgba(201, 164, 92, 0.15);
+  }
+  .custom-navbar .navbar-nav {
+    align-items: center !important;
+  }
+  .custom-navbar .navbar-nav .nav-link {
+    padding: 12px 0 !important;
+    font-size: 1.1rem;
+  }
+  .custom-navbar .d-flex.align-items-center {
+    flex-direction: column;
+    align-items: center !important;
+    margin-top: 20px;
+  }
+  .custom-navbar .d-flex.align-items-center .btn {
+    margin-right: 0 !important;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+  }
+}
