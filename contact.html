@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karma International</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css?v=21">
+    </head>
+
+<body class="bg-black">
+
+    <!-- Header / Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar site-header" id="mainNav">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" alt="Karma International" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mx-auto text-white align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="event.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a class="btn btn-outline-gold px-4 py-2 me-3" href="#">Become a Sponsor</a>
+                    <a class="btn btn-gold-gradient px-4 py-2 text-dark fw-bold" href="#">Become an Educator</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Contact Hero Section -->
+    <section class="contact-hero-section position-relative">
+        <div class="contact-hero-bg-image position-absolute h-100 top-0 end-0 z-index-1" style="background-image: url('assets/images/contact_hero_bg.jpg');"></div>
+        <div class="contact-hero-overlay position-absolute w-100 h-100 top-0 start-0 z-index-2"></div>
+        
+        <div class="container-fluid px-5 position-relative z-index-3 w-100 h-100 d-flex align-items-center">
+            <div class="row w-100 align-items-center">
+                <!-- Left Content -->
+                <div class="col-lg-6 col-md-8 contact-hero-content ps-lg-5 ms-lg-5">
+                    <div class="cta-subtitle mb-4 tracking-wide fw-semibold" style="letter-spacing: 8px; font-size: 0.65rem; color: var(--gold);">GET IN TOUCH</div>
+                    <h1 class="contact-hero-title mb-4">Let's Create a<br>Brighter Tomorrow<br><span>Together.</span></h1>
+                    <p class="contact-hero-desc mb-5">
+                        Whether you have a question, a collaboration idea,<br>partnership opportunity or simply want to say hello —<br>we'd love to hear from you.
+                    </p>
+                    
+                    <div class="contact-hero-features d-flex align-items-center mt-5 pt-3">
+                        <div class="contact-feature-box">
+                            <i class="far fa-comment-dots contact-feature-icon mb-4"></i>
+                            <h4 class="contact-feature-title">Quick Response</h4>
+                            <p class="contact-feature-desc">We usually reply<br>within 24 hours</p>
+                        </div>
+                        <div class="contact-feature-divider"></div>
+                        <div class="contact-feature-box">
+                            <i class="fas fa-user-friends contact-feature-icon mb-4"></i>
+                            <h4 class="contact-feature-title">Global Network</h4>
+                            <p class="contact-feature-desc">Connecting<br>across continents</p>
+                        </div>
+                        <div class="contact-feature-divider"></div>
+                        <div class="contact-feature-box">
+                            <i class="far fa-heart contact-feature-icon mb-4"></i>
+                            <h4 class="contact-feature-title">Meaningful Impact</h4>
+                            <p class="contact-feature-desc">Together for a<br>brighter future</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Contact Form & Info Section -->
+    <section class="contact-form-section" >
+        <div class="container-fluid px-5 h-100 d-flex align-items-center">
+            <div class="row w-100 m-0 justify-content-between">
+                
+                <!-- Left: Form Column -->
+                <div class="col-lg-4 col-md-5 pe-lg-4 mb-5 mb-md-0 d-flex flex-column justify-content-center">
+                    <div class="cta-subtitle mb-2 tracking-wide fw-bold" style="letter-spacing: 4px; font-size: 0.65rem; color: #e8be6b;">SEND US A MESSAGE</div>
+                    <h2 class="contact-section-title mb-3">We're Here to Help.</h2>
+                    <p class="contact-section-desc mb-4">Fill out the form and our team will get back to you shortly.</p>
+                    
+                    <form class="contact-form">
+                        <div class="row gx-3">
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control contact-input" placeholder="Your Name *">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="email" class="form-control contact-input" placeholder="Your Email *">
+                            </div>
+                        </div>
+                        <div class="mb-3 position-relative">
+                            <select class="form-select contact-input contact-select" aria-label="Subject">
+                                <option selected disabled>Subject *</option>
+                                <option value="1">General Inquiry</option>
+                                <option value="2">Partnership</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <textarea class="form-control contact-input" rows="3" placeholder="Your Message *"></textarea>
+                        </div>
+                        <div class="d-flex flex-column align-items-start mt-1">
+                            <button type="submit" class="btn contact-btn-gold px-5 py-3 mb-3">
+                                Send Message <i class="fas fa-arrow-right ms-2"></i>
+                            </button>
+                            <div class="contact-privacy-text">
+                                <i class="fas fa-lock me-2" style="color: #e8be6b; font-size:0.7rem;"></i> Your information is safe with us. We respect your privacy.
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Middle: Contact Info Column -->
+                <div class="col-lg-4 col-md-5 px-lg-4 d-flex flex-column justify-content-center">
+                    <div class="cta-subtitle mb-2 tracking-wide fw-bold" style="letter-spacing: 4px; font-size: 0.65rem; color: #e8be6b;">CONTACT INFORMATION</div>
+                    <h2 class="contact-section-title mb-4">Let's Connect.</h2>
+                    <p class="contact-section-desc mb-4">Reach out to us through any of the following channels.</p>
+                    
+                    <div class="contact-info-list">
+                        <!-- Email -->
+                        <div class="contact-info-item d-flex align-items-center mb-4">
+                            <div class="contact-icon-circle me-4">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h5 class="contact-info-title mb-1">Email Us</h5>
+                                <p class="contact-info-text mb-0">info@karmainternational.com</p>
+                            </div>
+                        </div>
+                        <!-- Phone -->
+                        <div class="contact-info-item d-flex align-items-center mb-4">
+                            <div class="contact-icon-circle me-4">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h5 class="contact-info-title mb-1">Call Us</h5>
+                                <p class="contact-info-text mb-0">+1 234 567 890</p>
+                            </div>
+                        </div>
+                        <!-- Address -->
+                        <div class="contact-info-item d-flex align-items-center mb-4">
+                            <div class="contact-icon-circle me-4">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h5 class="contact-info-title mb-1">Visit Us</h5>
+                                <p class="contact-info-text mb-0">New York, USA</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Socials -->
+                        <div class="contact-social-section d-flex align-items-center mt-2">
+                            <div class="contact-icon-circle me-4">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div>
+                                <h5 class="contact-info-title mb-2">Follow Us</h5>
+                                <div class="contact-social-icons d-flex gap-2">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Decorative Text Column -->
+                <div class="col-lg-3 col-md-2 d-none d-lg-flex flex-column justify-content-center align-items-start ps-lg-5 decorative-column">
+                    <div class="contact-decorative-lines mb-3"></div>
+                    <div class="contact-decorative-words">
+                        Ideas<br>
+                        People<br>
+                        Connections<br>
+                        Global Impact
+                    </div>
+                    <div class="contact-decorative-lines mt-3 mb-4"></div>
+                    <div class="contact-decorative-brand">
+                        THAT'S KARMA<br>
+                        INTERNATIONAL
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Full Width Google Map Section -->
+    <section class="contact-map-section w-100 m-0 p-0" style="line-height: 0;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235850.81229045337!2d88.1825409893466!3d22.535343431608826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1714567890123!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- 4. FAQ CTA Section -->
+    <section class="contact-faq-section position-relative">
+        <div class="container-fluid p-0 h-100">
+            <div class="row w-100 m-0 h-100">
+                <!-- Left Image -->
+                <div class="col-lg-6 col-md-6 p-0 h-100 position-relative">
+                    <div class="contact-faq-img" style="background-image: url('assets/images/contact_faq_img.jpg');"></div>
+                    <div class="contact-faq-img-overlay"></div>
+                    <div class="contact-faq-img-text">
+                        PEOPLE<br>
+                        IDEAS<br>
+                        OPPORTUNITIES<br>
+                        REAL CHANGE
+                    </div>
+                </div>
+                <!-- Right Text -->
+                <div class="col-lg-6 col-md-6 px-5 py-5 d-flex flex-column justify-content-center align-items-start contact-faq-content">
+                    <div class="cta-subtitle mb-3 tracking-wide fw-semibold" style="letter-spacing: 5px; font-size: 0.65rem; color: var(--gold);">STILL HAVE QUESTIONS?</div>
+                    <h2 class="contact-hero-title mb-3" style="font-size: 2.8rem;">We're Just a Message Away.</h2>
+                    <p class="contact-section-desc mb-5">
+                        Explore our FAQs or get in touch with our team directly.<br>We're happy to assist you.
+                    </p>
+                    <a href="#" class="btn contact-btn-gold px-4 py-3">
+                        View FAQs <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 6. Footer -->
+    <footer class="site-footer pt-5 position-relative" style="background-color: #050505;">
+        <div class="container-fluid px-5 pb-5 border-bottom" style="border-color: rgba(201,164,92,0.2) !important;">
+            <div class="row m-0 align-items-center">
+
+                <!-- Col 1: Logo -->
+                <div class="col-lg-3 col-md-6 footer-col has-divider pe-4 mb-4 mb-lg-0">
+                    <a class="navbar-brand d-inline-block mb-3" href="index.html">
+                        <img src="assets/images/logo.png" alt="Karma International" height="60">
+                    </a>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div class="col-lg-2 col-md-6 footer-col has-divider px-lg-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading mb-4">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-2"><a href="#">Home</a></li>
+                        <li class="mb-2"><a href="#">About</a></li>
+                        <li class="mb-2"><a href="#">Events</a></li>
+                        <li class="mb-2"><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Get In Touch -->
+                <div class="col-lg-3 col-md-6 footer-col has-divider px-lg-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading mb-4">Get In Touch</h5>
+                    <ul class="list-unstyled footer-contact">
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="far fa-envelope text-gold me-3 fs-5"></i>
+                            <a href="mailto:info@karmainternational.com">info@karmainternational.com</a>
+                        </li>
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-phone-alt text-gold me-3 fs-5"></i>
+                            <a href="tel:+1234567890">+1 234 567 890</a>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <i class="fas fa-map-marker-alt text-gold me-3 fs-5"></i>
+                            <span class="text-light">New York, USA</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Follow Us -->
+                <div class="col-lg-2 col-md-6 footer-col px-lg-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading mb-4">Follow Us</h5>
+                    <div class="d-flex social-links">
+                        <a href="#" class="social-icon d-flex align-items-center justify-content-center me-2"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon d-flex align-items-center justify-content-center me-2"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon d-flex align-items-center justify-content-center me-2"><i
+                                class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon d-flex align-items-center justify-content-center"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <!-- Col 5: Globe Image -->
+                <div class="col-lg-2 position-relative footer-globe-col p-0 d-none d-lg-block"
+                    style="min-height: 250px;">
+                    <img src="assets/images/footer-globe-final.jpg" class="position-absolute" alt="Globe"
+                        style="width: 450px; max-width: none; right: -30px; bottom: 0px; opacity: 1; mix-blend-mode: screen;">
+                    <div class="position-absolute w-100" style="bottom: 15px; right: 20px; text-align: right;">
+                        <span class="text-gold tracking-wide d-inline-block"
+                            style="font-size: 0.8rem; letter-spacing: 5px; font-family: 'Inter', sans-serif; line-height: 1.4;">A
+                            GLOBAL FAMILY<br>FOR A BRIGHTER TOMORROW</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Bottom Footer -->
+        <div class="footer-bottom py-4">
+            <div class="container-fluid px-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                        <span class="footer-bottom-text">© 2026 Karma International. All Rights Reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <a href="#" class="footer-bottom-link me-4">Privacy Policy</a>
+                        <span class="text-secondary me-4">|</span>
+                        <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Owl Carousel JS (Assumed to be loaded in the actual site, using CDN for fallback) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Custom Scripts for this page -->
+    <script>
+        $(document).ready(function () {
+            // Stats Counter Animation
+            $('.counter').each(function () {
+                $(this).prop('Counter', 0).animate({
+                    Counter: $(this).data('target')
+                }, {
+                    duration: 2000,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+
+            // Re-initialize Owl Carousel to ensure it works
+            if ($('.featured-carousel').length) {
+                var owl = $('.featured-carousel').owlCarousel({
+                    loop: true,
+                    margin: 20,
+                    nav: false,
+                    dots: false,
+                    autoplay: true,
+                    autoplayTimeout: 3000,
+                    responsive: {
+                        0: { items: 2 },
+                        600: { items: 4 },
+                        1000: { items: 6 }
+                    }
+                });
+
+                // Custom Navigation
+                $('.featured-nav-next').click(function () {
+                    owl.trigger('next.owl.carousel');
+                });
+                $('.featured-nav-prev').click(function () {
+                    owl.trigger('prev.owl.carousel');
+                });
+            }
+        });
+    </script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
