@@ -1385,13 +1385,18 @@ body {
   background-position: left center;
 }
 .contact-hero-overlay {
-  background: linear-gradient(90deg, #050505 35%, rgba(5,5,5,0.7) 50%, rgba(5,5,5,0) 100%);
+  background: linear-gradient(
+    90deg,
+    #050505 35%,
+    rgba(5, 5, 5, 0.7) 50%,
+    rgba(5, 5, 5, 0) 100%
+  );
 }
 .contact-hero-content {
   padding: 60px 0;
 }
 .contact-hero-title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 4.8rem;
   color: #fff;
   line-height: 1.05;
@@ -1402,7 +1407,7 @@ body {
   color: var(--gold);
 }
 .contact-hero-desc {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.1rem;
   color: #a0a0a0;
   line-height: 1.8;
@@ -1420,14 +1425,14 @@ body {
   font-weight: 300;
 }
 .contact-feature-title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   color: #fff;
   margin-bottom: 5px;
 }
 .contact-feature-desc {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.8rem;
   font-weight: 300;
   color: #6c757d;
@@ -1437,7 +1442,12 @@ body {
 .contact-feature-divider {
   width: 1px;
   height: 70px;
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
   margin: 0 10px;
 }
 
@@ -1590,7 +1600,12 @@ body {
   background-position: center;
 }
 .contact-location-overlay {
-  background: linear-gradient(90deg, #050505 20%, rgba(5,5,5,0.7) 40%, rgba(5,5,5,0) 100%);
+  background: linear-gradient(
+    90deg,
+    #050505 20%,
+    rgba(5, 5, 5, 0.7) 40%,
+    rgba(5, 5, 5, 0) 100%
+  );
 }
 
 /* 4. FAQ CTA Section */
@@ -1612,7 +1627,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, rgba(5,5,5,0.7) 0%, #050505 100%);
+  background: linear-gradient(90deg, rgba(5, 5, 5, 0.7) 0%, #050505 100%);
 }
 .contact-faq-img-text {
   position: absolute;
@@ -1621,7 +1636,7 @@ body {
   transform: translateY(-50%);
   font-family: "Inter", sans-serif;
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.8);
+  color: rgba(255, 255, 255, 0.8);
   letter-spacing: 5px;
   line-height: 2;
   text-transform: uppercase;
@@ -1638,7 +1653,7 @@ body {
 }
 
 .contact-section-title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 2.8rem !important;
   color: #ffffff !important;
   font-weight: 500 !important;
@@ -1691,12 +1706,12 @@ body {
   width: 32px !important;
   height: 32px !important;
   background-color: transparent !important;
-  border: 1px solid rgba(255,255,255,0.2) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
   font-size: 0.8rem !important;
 }
 
 .decorative-column {
-  border-left: 1px solid rgba(255,255,255,0.1) !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 .contact-decorative-words {
@@ -1717,10 +1732,19 @@ body {
   background-position: right center !important;
 }
 .contact-location-overlay {
-  background: linear-gradient(90deg, #050505 0%, #050505 45%, rgba(5,5,5,0) 100%) !important;
+  background: linear-gradient(
+    90deg,
+    #050505 0%,
+    #050505 45%,
+    rgba(5, 5, 5, 0) 100%
+  ) !important;
 }
 .contact-faq-img-overlay {
-  background: linear-gradient(90deg, rgba(5,5,5,0.4) 0%, #050505 100%) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(5, 5, 5, 0.4) 0%,
+    #050505 100%
+  ) !important;
 }
 .contact-faq-img-text {
   left: 10% !important;
@@ -1751,15 +1775,23 @@ body {
 /* UI/UX LEGIBILITY FIX FOR FORM SECTION */
 .contact-form-section {
   position: relative !important;
-  background-image: url('../images/contact_form_bg_new.jpg') !important;
+  background-image: url("../images/contact_form_bg_new.jpg") !important;
   background-size: cover !important;
   background-position: center !important;
 }
 .contact-form-section::before {
   content: "";
   position: absolute;
-  top: 0; left: 0; width: 100%; height: 100%;
-  background: linear-gradient(90deg, rgba(5,5,5,0.9) 0%, rgba(5,5,5,0.7) 50%, rgba(5,5,5,0.85) 100%) !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(5, 5, 5, 0.9) 0%,
+    rgba(5, 5, 5, 0.7) 50%,
+    rgba(5, 5, 5, 0.85) 100%
+  ) !important;
   z-index: 1;
 }
 .contact-form-section > .container-fluid {
@@ -1779,12 +1811,12 @@ body {
 
 /* FIX FOR UNCLICKABLE FOOTER ICONS */
 .footer-col .social-links {
-    position: relative !important;
-    z-index: 50 !important;
+  position: relative !important;
+  z-index: 50 !important;
 }
 .footer-social-link {
-    position: relative !important;
-    z-index: 50 !important;
+  position: relative !important;
+  z-index: 50 !important;
 }
 
 /* FIX FOR FAQ LEFT TEXT */
@@ -1806,16 +1838,336 @@ body {
 
 /* Footer Dividers (Moved from inline styles) */
 .footer-col {
-    position: relative;
-    border-right: none !important;
+  position: relative;
+  border-right: none !important;
 }
 .footer-col.has-divider::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 1px;
-    height: 100px;
-    background-color: rgba(201, 164, 92, 0.2) !important;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 100px;
+  background-color: rgba(201, 164, 92, 0.2) !important;
+}
+
+/* ==========================================================================
+   GALLERY PAGE STYLES
+   ========================================================================== */
+
+/* 1. Gallery Hero Section */
+.gallery-hero-section {
+  min-height: 400px;
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.7) 40%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/gallery_hero.jpg");
+  background-size: cover;
+  background-position: center 20%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding-top: 140px; /* Offset for fixed navbar */
+  position: relative;
+  border-bottom: 1px solid rgba(201, 164, 92, 0.3);
+}
+
+.gallery-hero-subtitle {
+  color: #d4af37;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.gallery-hero-title {
+  font-family: "Playfair Display", serif;
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.gallery-hero-title span {
+  color: #d4af37;
+}
+
+.gallery-hero-line {
+  width: 60px;
+  height: 2px;
+  background-color: #d4af37;
+  margin-bottom: 25px;
+}
+
+.gallery-hero-desc {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 450px;
+}
+
+.gallery-decorative-text {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 3px;
+  line-height: 2.2;
+  text-align: right;
+  margin-top: 50px;
+}
+.gallery-decorative-text::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #d4af37;
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+/* 2. Gallery Filters */
+.gallery-filter-section {
+  background-color: #050505;
+  padding: 30px 0;
+}
+
+.gallery-filter-btn {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  padding: 8px 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.gallery-filter-btn:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.gallery-filter-btn.active {
+  background-color: #d4af37;
+  color: #000000;
+  border-color: #d4af37;
+  font-weight: 600;
+}
+
+.gallery-search-container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.gallery-search-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+}
+
+.gallery-search-input {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 8px 15px 8px 40px;
+  width: 100%;
+  font-size: 0.85rem;
+}
+.gallery-search-input:focus {
+  outline: none;
+  border-color: #d4af37;
+  box-shadow: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+/* 3. Photo Grid (5-column Masonry) */
+.gallery-grid-section {
+  background-color: #050505;
+  padding-bottom: 80px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px; /* Exact gap from mockup */
+}
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  background-color: #111;
+  cursor: pointer;
+}
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.grid-item:hover img {
+  transform: scale(1.05);
+}
+
+.grid-item-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.grid-item:hover .grid-item-overlay {
+  opacity: 1;
+}
+
+.grid-search-icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+/* Grid Layout Specifications */
+.grid-item-wide-top {
+  grid-column: span 2;
+  aspect-ratio: 16/9;
+}
+.grid-item-square-top {
+  grid-column: span 1;
+  aspect-ratio: 1/1;
+}
+.grid-item-square-mid {
+  grid-column: span 1;
+  aspect-ratio: 1/1;
+}
+.grid-item-wide-bot {
+  grid-column: span 2;
+  aspect-ratio: 16/9;
+}
+.grid-item-square-bot {
+  grid-column: span 1;
+  aspect-ratio: 1/1;
+}
+
+.grid-text-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #0d0d0d;
+}
+.grid-text-item h4 {
+  color: #d4af37;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* 4. Video Gallery Section */
+.video-gallery-section {
+  background-color: #050505;
+  padding: 60px 0 100px 0;
+}
+
+.video-thumb-container {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.video-thumb-container img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.video-thumb-container:hover img {
+  transform: scale(1.05);
+}
+
+.video-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 1.2rem;
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+.video-thumb-container:hover .video-play-btn {
+  background: #d4af37;
+  border-color: #d4af37;
+  color: #000;
+}
+
+.video-title {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
+.video-duration {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+}
+
+/* 5. CTA Section */
+.gallery-cta-section {
+  background-image: url("../images/contact_form_bg_new.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 80px 0;
+  text-align: center;
+}
+.gallery-cta-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(5, 5, 5, 0.85);
+}
+.gallery-cta-content {
+  position: relative;
+  z-index: 2;
 }
